@@ -6,7 +6,7 @@ export default function Home() {
       <Head>
         <title>Simple Next.js</title>
       </Head>
-      <h1 className="text-4xl text-[#009B5A] font-bold">This is a home page</h1>
+      <h1 className="text-4xl text-[#009B5A] font-bold">The Next.js</h1>
       <p className="mt-2 text-2xl text-gray-900">Next.js is an open-source development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites. React documentation mentions Next.js among. &ldquo; Recommended Toolchains &ldquo; advising it to developers as a solution when &ldquo; Building a server-rendered website with Node.js &ldquo; .Traditional React apps render all their content in the client-side browser, Next.js is used to extend this functionality to include applications rendered on the server side.The copyright and trademarks for Next.js are owned by company Vercel (previously named ZEIT), which also maintains and leads its open-source development.[5]</p>
 
       {/* Image */}
