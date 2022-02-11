@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
@@ -10,6 +11,9 @@ export default function NotFound() {
     }, [router])
     return (
         <>
+            <Head>
+                <title>Oops...page not found</title>
+            </Head>
             <div className="text-center">
                 <h1 className="text-2xl">Ooops...</h1>
                 <h2>That page cannot be found :(</h2>
