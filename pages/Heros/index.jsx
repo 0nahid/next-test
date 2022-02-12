@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -32,9 +33,10 @@ const index = ({ heros }) => {
                 ))}
             </div>
 
-            {/* <div style={{ margin: '20px' }} >
-            <Image src="/hero.svg" layout="responsive" width={700} height={300} alt="Hero" />
-        </div> */}
+            <div style={{ margin: '20px' }} >
+                <Image src="/hero.svg" loading="eager" layout="responsive" width={700} height={300} alt="Hero" />
+            </div>
+
             <Link href="Heros/Hero" passHref><span className="text-[#009B5A] underline cursor-pointer">Open Hero</span></Link>
         </>
     )
